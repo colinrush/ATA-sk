@@ -54,3 +54,5 @@ def replace_values(data, sk_array, sk_low, sk_upp,
 
                 if sk_bool:
                     data[iant, ifreq, :, ipol] = to_replace
+
+    return(data)

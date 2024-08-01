@@ -1,6 +1,6 @@
 from sigpyproc.readers import FilReader
 from astropy.time import Time
-from guppi import Guppi
+from guppi import guppi
 
 def init_filterbank(path_to_fil, path_to_guppi, outfile_name,T_INT):
     # fil = FilReader("/mnt/primary/scratch/crush/guppi_60479_79539_018100_J0332+5434_0001/fout.fil")
